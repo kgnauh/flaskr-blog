@@ -1,8 +1,7 @@
 blinker==1.9.0
 click==8.2.1
 Flask==3.1.2
-# Editable install with no version control (flaskr==1.0.0)
--e /Users/Kevin/Documents/flaskproject
+-e git+https://github.com/kgnauh/flaskr-blog.git@59d6fb6a1e0ef450b1b740983aa0dd0f65863afb#egg=flaskr
 gunicorn==23.0.0
 itsdangerous==2.2.0
 Jinja2==3.1.6
